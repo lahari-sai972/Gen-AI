@@ -1,0 +1,25 @@
+# Backend dependencies
+fastapi==0.109.0
+uvicorn==0.27.0
+python-multipart==0.0.6
+
+# Core langchain - let pip resolve compatible versions
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+langchain-ollama
+
+# Vector store and embeddings
+chromadb
+sentence-transformers
+huggingface-hub
+
+# Document loaders
+pypdf
+python-docx
+
+# Frontend dependencies
+streamlit
+requests
